@@ -1,0 +1,22 @@
+html{
+padding: 0;
+margin: 0;
+}
+body{
+padding: 0;
+margin: 0;
+}
+
+*,::before,::after{
+padding: 0;
+margin: 0; 
+}
+
+
+
+.wrpleft{
+    position: relative;
+}
+
+
+

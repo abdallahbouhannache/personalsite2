@@ -1,0 +1,45 @@
+
+
+#pg{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+
+
+img{
+    color:red
+}
+
+
+#eldt{
+padding: 0;
+margin: 10px;
+border:1px solid black;
+position: relative;
+text-align: center;
+width: 400px;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#eldt:hover{
+    background-color:rgba(36, 89, 97, 0.584);
+    transition:all 1s;
+    
+}
+#bgsite{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: -2;
+    height: 100%;
+}
+#eldt>h1{
+    color:white;
+    
+}
