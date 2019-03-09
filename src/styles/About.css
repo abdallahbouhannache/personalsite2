@@ -64,6 +64,13 @@ height: auto;
     padding: 0;
     width: auto;
     
+    
+}
+img.st:hover{
+    
+    box-shadow: -1px -1px 10px rgba(210, 210, 211, 0.37);
+    background-color: rgba(210, 210, 211, 0.13);
+
 }
 
 img.st{
@@ -72,6 +79,9 @@ img.st{
     width:auto;
     position: relative;
     top:-8px;
+    border-radius: 20%;
+    transition: all 1s ease-in-out
+    
 }
 
 

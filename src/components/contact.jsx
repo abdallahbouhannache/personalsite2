@@ -8,10 +8,11 @@ class contact extends Component {
     }
     render() {
         return (
-            <div id="cd1">
-                <input type="emait"/>
-                <input type="text"/>
-                feafeagfaegeageageag
+            <div id="cd1">            
+
+<p>hi I am just a person enthousiast with everything of NTIC but i do more developement and networking. </p> 
+<p>feel free to  contact me on this email: <a href="http://mail.google.com/">abdallah.bouhannache@gmail.com</a> and on all my socials you find them on my the main page</p>
+
             </div>
 
             
