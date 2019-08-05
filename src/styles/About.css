@@ -66,12 +66,12 @@ height: auto;
     
     
 }
-img.st:hover{
+/* img.st:hover{
     
     box-shadow: -1px -1px 10px rgba(210, 210, 211, 0.37);
     background-color: rgba(210, 210, 211, 0.13);
 
-}
+} */
 
 img.st{
     margin: 0;

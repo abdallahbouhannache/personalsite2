@@ -13,11 +13,8 @@ class Navhead extends Component {
   render() {
     return (
       <div id="container">
-
         <img id="bg" src={require("../ress/img/bgh.jpg")} alt="problem_in_loading" />
-        <img id="mypic" src={require("../ress/img/ab.JPG")} alt="problem_in_loading" />
-       
-
+        <img id="mypic" src={require("../ress/img/ab.JPG")} alt="problem_in_loading" />  
       </div>
     );
   }

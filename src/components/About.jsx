@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../styles/About.css'
+import   Social from "./socials";
 
 
 
@@ -8,7 +9,10 @@ class About extends Component {
         super(props);
         this.state = {};
     }
+    
+            styl = { color: 'red' };
     render() {
+        
         return (
             <div id="about">
                 
@@ -22,33 +26,37 @@ class About extends Component {
                         <li className="liste">...</li>
                         </ul>
                            
-                        <ul id="prg" className="ulcont liste">
-                             PROGRAMMING:   
-                            <li className="liste">java</li>
+                        <ul id="prg" className="ulcont lst">
+                            <h4 style={this.styl}> PROGRAMMING && SOFTWARE DEV:   </h4>
+                            <li className="liste">java and javafx</li>
                             <li className="liste">python</li>
                             <li className="liste">html,css,js</li>
                             <li className="liste">reactjs</li>
                             <li className="liste">...</li>
                         </ul>
                                                                               
-                    <ul id="labs" className="ulcont liste">      NETWORKS:         </ul>
+                        <ul id="Os" className="ulcont lst">
+                            <h4 style={this.styl}>  System Adminstration && Database:</h4>
+                            <li className="liste">linux terminal basic && bash </li>
+                            <li className="liste">MySql,sql</li>
+                        </ul>
                         
-                        <ul id ="langs" className="ulcont liste">     LANGUAGES:         
+                    <ul id="langs" className="ulcont lst">     
+                        <h4 style={this.styl}> LANGUAGES:         </h4>
                         
                         <li className="liste">       Arabic:Native,         </li>
                         <li className="liste">      French:Read ,Write,Speak.         </li>
                         <li className="liste">      English:Read ,Write,Speak.         </li>
                         </ul>
-
-                        <li className="liste">      WORK:         </li>
+                        
+                    <ul className="liste">      
+                        <h4 style={this.styl}>WORK:</h4>
+                    </ul>
                         <li className="liste">      EMAIL:abdallah.bouhannache@gmail.com</li>
                         <li className="liste">      PHONE_N°:00213696911757     </li> 
 
-
-                        <li className="liste0" id="social">  <a className="socials" href="https://www.facebook.com/abdelah.bouhanneche"> <img className="st" src={require('../ress/img/fb.svg')} alt="" /> </a>
-     <a className="socials" href="https://github.com/abdallahbouhannache">     <img className="st" src={require('../ress/img/twitter.svg')} alt="" /> </a>  
-     <a className="socials" href="https://twitter.com/abdallahbouhann">     <img className="st" src={require('../ress/img/github.svg')} alt="" /> </a>
-     <a className="socials" href="https://stackoverflow.com/users/3252690/abdallah-bouhannache">    <img className="st" src={require('../ress/img/stackov.svg')} alt="" /> </a> </li> 
+                    <Social/>
+     
                     </ul>
                 
 
